@@ -381,6 +381,17 @@ body {
     border: 1px solid teal; 
 }
 
+.customer-list-link {
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+}
+
+.customer-list-link_icon {
+    width: 106px;
+    height: 60px;
+}
+
 
 /* Styles of Footer part*/
 
