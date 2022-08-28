@@ -10,6 +10,7 @@
     --header-border-color: #ECECEC;
     --light-footer-contacts-color: rgba(255, 255, 255, 0.6);
     --border-portfolio-color: #EEEEEE;
+    --under-bgimages-color: #c4c4c4;
     --card-set-gap: 30px;
 }
 
@@ -167,8 +168,15 @@ body {
 .hero-section {
     padding-top: 200px;
     padding-bottom: 200px;
-
-    background-color: var(--hero-background-color);
+    max-width: 1600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    background-color:var(--under-bgimages-color);
+    outline: 1px solid #000000;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bg-hero-img.jpg);
 }
 
 .hero-content .hero-title {
@@ -185,6 +193,10 @@ body {
     text-transform: uppercase;
     text-align: center;
     color: var(--white-color);
+}
+
+.hero-overlay {
+    
 }
 
 /* this property for all buttons (Page 1-2) */
@@ -370,7 +382,7 @@ body {
 
 .customers-list {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-right: -30px;
     border: 1px solid tomato;
 }
@@ -384,7 +396,7 @@ body {
 }
 
 .customer-list-link {
-    display: block;
+    display: inline-block;
 }
 
 .customer-list-link_icon {
