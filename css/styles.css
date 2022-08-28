@@ -372,24 +372,23 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
-
+    border: 1px solid tomato;
 }
 
 .customer-list-item {
+    /* display: flex;
+    flex-wrap: wrap; */
     flex-basis: calc(100% / 6 - var(--card-set-gap));
     margin-right: var(--card-set-gap);
-    border: 1px solid teal; 
+    border: 1px solid teal;
 }
 
 .customer-list-link {
-    display: inline-block;
-    align-content: center;
-    justify-content: center;
+    display: block;
 }
 
 .customer-list-link_icon {
-    width: 106px;
-    height: 60px;
+    
 }
 
 
