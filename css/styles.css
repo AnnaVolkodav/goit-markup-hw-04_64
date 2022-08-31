@@ -361,31 +361,6 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-/* .social-list-links {
-    display: flex;
-    width: 206px;
-    margin-right: auto;
-    margin-left: auto;
-
-    /* align-content: center; */
-    /* width: 44px;
-    height: 44px; */
-} */
-
-/* .social_list-link {
-    justify-content: center;
-    /* flex-basis: calc(100% / 4 - 10px);
-    margin-right: 10px; */
-}
-
-/* .social-link {
-    display: flex;
-    align-content: center;
-} */ */
-
-
-/* white card under image */
-
 .about-member {
     flex-basis: inherit;
     padding-top: 30px;
@@ -405,6 +380,70 @@ body {
 .member-team-position {
     color: var(--main-light-color);
 }
+
+.social-list-links {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-top: 16px;
+    column-gap: 8px;
+    padding: 0 32px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    /* width: 206px;
+    margin-right: auto;
+    margin-left: auto; */
+}
+
+.social_list-link {
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    /* background-color: teal; */
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color:var(--blue-color);
+}
+
+.social-link-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--main-light-color);
+}
+
+.social-link-icon:hover {
+    fill:var(--white-color);
+}
+    /* align-content: center; */
+    /* width: 44px;
+    height: 44px;
+*/
+
+/* .social_list-link {
+    justify-content: center;
+    /* flex-basis: calc(100% / 4 - 10px);
+    margin-right: 10px; */
+}
+
+/* .social-link {
+    display: flex;
+    align-content: center;
+} */ */
+
+
+/* white card under image */
+
+
 
 /* Customers Section */
 
