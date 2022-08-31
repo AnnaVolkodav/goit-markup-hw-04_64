@@ -148,16 +148,18 @@ body {
 }
 
 
-.link-contact {
+.link-contact,
+.link-difference {
     display: flex;
     align-items: center;
-    border-radius: 50%;
-    border-color: tomato;
+    justify-content: center;
     color: var(--main-light-color);
 }
 
 .icon-item {
     margin-right: 10px;
+    fill: currentColor;
+
 }
 
 .link-nav:hover,
@@ -261,6 +263,10 @@ body {
     margin: -1px;
 }
 
+.icon-antenna {
+
+}
+
 .differences-list {
     display: flex;
     flex-wrap: wrap;
@@ -276,6 +282,23 @@ body {
     margin-right: 30px;
 }
 
+.link-difference {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color:var(--grey-button-color);
+}
+
+.link-difference>.difference-icon {
+    width: 70px;
+    height: 70px;
+    fill: currentColor;
+}
+
+.difference-text-item {
+    padding-top: 30px;
+}
 .title-difference {
     margin-bottom: 10px;
 
