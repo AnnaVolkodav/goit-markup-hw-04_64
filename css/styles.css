@@ -475,6 +475,11 @@ body {
     border: 1px solid #AFB1B8;
 }
 
+.customer-list-link:hover, 
+.customer-list-link:focus {
+    color: var(--blue-color);
+}
+
 .customer-list-link_icon {
     width: 100px;
     height: 60px;
