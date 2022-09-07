@@ -36,17 +36,22 @@
 
             <ul class="header-contacts list">
                 <li class="item-header-contacts">
-                    <a class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="link-contact" href="mailto:info@devstudio.com">
+                        <svg class="icon-mail icon-item" width="16" height="12">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>info@devstudio.com</a>
                 </li>
                 <li class="item-header-contacts">
-                    <a class="link-contact" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="link-contact" href="tel:+380961111111">
+                        <svg class="icon-smartphone icon-item" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
     </header>
 
     <main>
-
         <section class="section">
             <div class="container">
                 <!-- Цей заголовок буде прихованим -->
@@ -72,7 +77,7 @@
 
                 <ul class="list images-menu">
                     <li class="item-img-menu">
-                        <a href="./portfolio.html" class="link-images">
+                        <a class="link-images" href="./portfolio.html">
                             <img src="./images/imgs-portfolio/opened-notebook.jpg" alt="Зображення на моніторі ноутбука"
                                 width="370" />
                             <span class="img-dsc">
@@ -82,7 +87,7 @@
                         </a>
                     </li>
                     <li class="item-img-menu">
-                        <a href="./portfolio.html" class="link-images">
+                        <a class="link-images" href="./portfolio.html">
                             <img src="./images/imgs-portfolio/basketball-poster.jpg"
                                 alt="Постер з двома гравцями в баскетбол" width="370" />
                             <span class="img-dsc">
@@ -92,7 +97,7 @@
                         </a>
                     </li>
                     <li class="item-img-menu">
-                        <a href="./portfolio.html" class="link-images">
+                        <a class="link-images" href="./portfolio.html">
                             <img src="./images/imgs-portfolio/restaurant-name.jpg" alt="Логотип ресторану"
                                 width="370" />
                             <span class="img-dsc">
@@ -102,7 +107,7 @@
                         </a>
                     </li>
                     <li class="item-img-menu">
-                        <a href="./portfolio.html" class="link-images">
+                        <a class="link-images" href="./portfolio.html">
                             <img src="./images/imgs-portfolio/headphone.jpg" alt="Навушники" width="370" />
                             <span class="img-dsc">
                                 <h2 class="image-title">Проєкт <span lang="en">Prime</span></h2>
@@ -111,7 +116,7 @@
                         </a>
                     </li>
                     <li class="item-img-menu">
-                        <a href="./portfolio.html" class="link-images">
+                        <a class="link-images" href="./portfolio.html">
                             <img src="./images/imgs-portfolio/two-boxes.jpg" alt="Дві коробки" width="370" />
                             <span class="img-dsc">
                                 <h2 class="image-title">Проєкт <span lang="en">Boxes</span></h2>
@@ -120,7 +125,7 @@
                         </a>
                     </li>
                     <li class="item-img-menu">
-                        <a href="./portfolio.html" class="link-images">
+                        <a class="link-images" href="./portfolio.html">
                             <img src="./images/imgs-portfolio/pc-monitor.jpg" alt="Монітор комп'ютера" width="370" />
                             <span class="img-dsc">
                                 <h2 class="image-title"><span lang="en">Inspiration has no Borders</span></h2>
@@ -129,7 +134,7 @@
                         </a>
                     </li>
                     <li class="item-img-menu">
-                        <a href="./portfolio.html" class="link-images">
+                        <a class="link-images" href="./portfolio.html">
                             <img src="./images/imgs-portfolio/magazine.jpg" alt="Розгорнутий журнал" width="370" />
                             <span class="img-dsc">
                                 <h2 class="image-title">Видання <span lang="en">Limited Edition</span></h2>
@@ -138,7 +143,7 @@
                         </a>
                     </li>
                     <li class="item-img-menu">
-                        <a href="./portfolio.html" class="link-images">
+                        <a class="link-images" href="./portfolio.html">
                             <img src="./images/imgs-portfolio/label.jpg" alt="Етикетка з написом" width="370" />
                             <span class="img-dsc">
                                 <h2 class="image-title">Проєкт <span lang="en">LAB</span></h2>
@@ -147,7 +152,7 @@
                         </a>
                     </li>
                     <li class="item-img-menu">
-                        <a href="./portfolio.html" class="link-images">
+                        <a class="link-images" href="./portfolio.html">
                             <img src="./images/imgs-portfolio/work-on-notebook.jpg" alt="Робота за ноутбуком"
                                 width="370" />
                             <span class="img-dsc">
@@ -162,24 +167,60 @@
     </main>
 
     <footer class="footer-menu">
-        <div class="container">
-            <a class="logo" href=""><span lang="en"><span class="logo-blue">Web</span><span
-                        class="logo-white">Studio</span></span></a>
-
-            <address class="footer-address">
-                <ul class="list footer-contacts">
-                    <li class="item-footer-contacts">
-                        <a class="link-footer map-address" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
-                            rel="noopener noreferrer"">м. Київ, пр-т Лесі Українки, 26</a>
+        <div class="container footer-container">
+    
+            <div class="logo-address-container">
+                <a class="logo" href=""><span lang="en"><span class="logo-blue">Web</span><span
+                            class="logo-white">Studio</span></span></a>
+                <address class="footer-address">
+                    <ul class="list footer-contacts">
+                        <li class="item-footer-contacts">
+                            <a class="link-footer map-address" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+                                rel="noopener noreferrer"">м. Київ, пр-т Лесі Українки, 26</a>
+                        </li>
+                        <li class=" item-footer-contacts">
+                                <a class=" link-footer mail-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="item-footer-contacts">
+                            <a class="link-footer tel-contact" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+    
+            <div class="icon-footer-container">
+                <h3 class="title-icon-footer" lang="uk">приєднуйтесь</h3>
+                <ul class="list-icon-footer list">
+                    <li class="footer-social_list-link">
+                        <a class="footer-social-link" href="">
+                            <svg class="social-link-icon-instagram social-link-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class=" item-footer-contacts">
-                            <a class=" link-footer mail-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <li class="footer-social_list-link">
+                        <a class="footer-social-link" href="">
+                            <svg class="social-link-icon-twitter social-link-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="item-footer-contacts">
-                        <a class="link-footer tel-contact" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <li class="footer-social_list-link">
+                        <a class="footer-social-link" href="">
+                            <svg class="social-link-icon-facebook social-link-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social_list-link">
+                        <a class="footer-social-link" href="">
+                            <svg class="social-link-icon-linkedin social-link-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>

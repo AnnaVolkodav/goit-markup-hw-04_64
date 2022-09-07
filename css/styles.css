@@ -357,6 +357,8 @@ body {
     text-align: center;
     background-color: var(--white-color);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.14);
 }
 
 .about-member {
@@ -483,7 +485,7 @@ body {
 }
 
 .customer-list-link_icon {
-    width: 100px;
+    width: 106px;
     height: 60px;
     color: #AFB1B8;
     fill:var(--grey-icon-color);
@@ -493,6 +495,12 @@ body {
 /* Styles of Footer part*/
 
 /* logo */
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
 
 .footer-menu {
     padding-top: 60px;
@@ -537,6 +545,52 @@ body {
     color: rgba(33, 150, 243, 1);
 }
 
+.icon-footer-container {
+    margin-left: 70px;
+}
+
+.title-icon-footer {
+    margin-bottom: 20px;
+}
+
+.list-icon-footer {
+    display: flex;
+    margin-right: -10px;
+}
+
+.title-icon-footer {
+    font-style: inherit;
+    color: var(--white-color);
+    line-height: auto;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.1);
+}
+
+.footer-social_list-link {
+    flex-basis: calc(100% / 4 - 10px);
+    margin-right: 10px;
+}
+
+.footer-social-link>.social-link-icon {
+    fill: var(--white-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--blue-color);
+    fill:var(--white-color);
+}
+
 
 
 /* Page 2 (portfolio.html) Styles for main */
@@ -561,10 +615,10 @@ body {
     border: 1px solid transparent;
 }
 
-.btn-all {
+/* .btn-all {
     padding-right: 25px;
     padding-left: 25px;
-}
+} */
 
 .portfolio-btn:not(:last-child) {
     margin-right: 8px;
@@ -574,6 +628,7 @@ body {
 .menu-button:focus {
     background-color: var(--blue-color);
     color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .images-menu {
@@ -600,9 +655,16 @@ body {
     margin-bottom: 30px;
 }
 
-
 .link-images {
-    /* border: 1px 1px 0 1px solid var(--border-portfolio-color); */
+    /* width: 100%; */
+}
+
+/* НЕ ПРАЦЮЄ ТІНЬ НА ПОСИЛАННЯХ, ЛИШЕ НА ЛІШКАХ .item-img-menu */
+.link-images:hover,
+.link-images:focus {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16),
+    0 4px 4px rgba(0, 0, 0, 0.06),
+    0 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .img-dsc {
