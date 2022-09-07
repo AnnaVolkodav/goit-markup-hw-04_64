@@ -662,7 +662,7 @@ body {
 }
 
 .link-images {
-    /* width: 100%; */
+    display: block;
 }
 
 /* НЕ ПРАЦЮЄ ТІНЬ НА ПОСИЛАННЯХ, ЛИШЕ НА ЛІШКАХ .item-img-menu */
