@@ -471,7 +471,7 @@ body {
 }
 
 .customer-list-link {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     padding: 16px 32px;
@@ -481,7 +481,13 @@ body {
 
 .customer-list-link:hover, 
 .customer-list-link:focus {
-    color: var(--blue-color);
+    border: 1px solid var(--blue-color);
+    fill: var(--blue-color);
+}
+
+.customer-list-link_icon:hover,
+.customer-list-link_icon:hover {
+    fill:var(--blue-color);
 }
 
 .customer-list-link_icon {
