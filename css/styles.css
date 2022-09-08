@@ -490,7 +490,8 @@ body {
 }
 
 .customer-list-link:hover .customer-list-link_icon,
-.customer-list-link:hover .customer-list-link_icon {
+.customer-list-link:focus .customer-list-link_icon {
+    /* border-color: var(--blue-color); */
     fill:var(--blue-color);
 }
 
